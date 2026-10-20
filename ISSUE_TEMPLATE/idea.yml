@@ -1,0 +1,22 @@
+name: Idea
+description: Something frameshell could do, or do better
+labels: ["idea"]
+projects: ["frame-shell/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What should it do? A sentence or two is enough.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What it would make easier, or what bothers you now.
+  - type: input
+    id: part
+    attributes:
+      label: Part
+      description: shell, launcher, cli, a theme, an app … (leave empty if unsure)

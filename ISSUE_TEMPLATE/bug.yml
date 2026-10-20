@@ -1,0 +1,23 @@
+name: Bug
+description: Something does not work as it should
+labels: ["bug"]
+projects: ["frame-shell/1"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: The output of the command TESTING.md names for this part, or `frame status`.
+      render: shell
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: "e.g. CachyOS, Hyprland 0.56.2, Quickshell 0.2 (hyprctl version, qs --version)"

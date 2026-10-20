@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: What to test
+    url: https://github.com/frame-shell/frameshell/blob/main/TESTING.md
+    about: The checklist for trying frameshell, with the commands that show what is wrong
